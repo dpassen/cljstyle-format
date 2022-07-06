@@ -1,0 +1,20 @@
+#+TITLE: cljstyle-format
+This is an Emacs package to [[https://github.com/purcell/emacs-reformatter][reformat]] Clojure code using [[https://github.com/greglook/cljstyle][cljstyle]]
+
+* Installation
+Ensure that the [[https://github.com/greglook/cljstyle][cljstyle]] executable is on your exec path
+
+#+BEGIN_SRC elisp
+    (leaf cljstyle-format
+      :ensure t)
+#+END_SRC
+
+* Usage
+- cljstyle-format-buffer - Formats the entire buffer
+- cljstyle-format-region - Formats the selected region
+- cljstyle-format-on-save-mode - Minor mode that formats the entire buffer on save
+
+* License
+cljstyle-format is distributed under the GNU General Public License, version 3.
+
+Copyright © 2022 Derek Passen
