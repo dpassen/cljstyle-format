@@ -1,6 +1,8 @@
 #+TITLE: cljstyle-format
 This is an Emacs package to [[https://github.com/purcell/emacs-reformatter][reformat]] Clojure code using [[https://github.com/greglook/cljstyle][cljstyle]]
 
+[[https://melpa.org/#/cljstyle-format][file:https://melpa.org/packages/cljstyle-format-badge.svg]]
+
 * Installation
 Ensure that the [[https://github.com/greglook/cljstyle][cljstyle]] executable is on your exec path
 
